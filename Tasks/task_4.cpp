@@ -23,6 +23,7 @@ int main()
 		{
 			std::cout << "Please enter a letter A-Z. ";
 			i--;
+			continue;
 		}
 		letters[i] += CEASAR_OFFSET;
 		if (letters[i] > 'Z')
